@@ -58,9 +58,10 @@ module.exports = async function handler(req, res) \{\
       customer_creation: "always"\
     \});\
 \
-    return res.status(200).json(\{\
-      id: session.id\
-    \});\
+    return res.status(200).json({
+      id: session.id,
+      url: session.url
+    });\
 \
   \} catch (error) \{\
     console.error(error);\
