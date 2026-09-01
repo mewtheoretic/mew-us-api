@@ -4,6 +4,7 @@
   "requires": true,
   "packages": {},
   "dependencies": {
-    "@supabase/supabase-js": "^2.112.4"
+    "@supabase/supabase-js": "^2.112.4",
+    "stripe": "^22.6.0"
   }
 }
