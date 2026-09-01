@@ -6,7 +6,7 @@ module.exports = async function handler(req, res) {
   // CORS
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://www.bytetheoretic.com"
+    "https://www.mew-us.com"
   );
 
   res.setHeader(
@@ -42,10 +42,10 @@ module.exports = async function handler(req, res) {
       ],
 
       success_url:
-        "https://www.bytetheoretic.com/success.html?session_id={CHECKOUT_SESSION_ID}",
+        "https://www.mew-us.com/success.html?session_id={CHECKOUT_SESSION_ID}",
 
       cancel_url:
-        "https://www.bytetheoretic.com/cancel.html",
+        "https://www.mew-us.com/cancel.html",
 
       // Ask Stripe Checkout to collect the customer's email.
       customer_creation: "always"
