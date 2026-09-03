@@ -45,7 +45,7 @@ module.exports = async function handler(req, res) {
         "https://www.mew-us.com/success.html?session_id={CHECKOUT_SESSION_ID}",
 
       cancel_url:
-        "https://www.mew-us.com/cancel.html",
+        "https://www.mew-us.com",
 
       // Ask Stripe Checkout to collect the customer's email.
       customer_creation: "always"
